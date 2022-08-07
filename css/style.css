@@ -1,0 +1,287 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap');
+/* Global CSS */
+body{
+      font-family: 'Lato', sans-serif;
+      color: #999999;
+}
+h1, h2, h3, h4, h5, h6{
+      font-family: 'Lato', sans-serif;
+      color: #2d3950;
+      margin: 0px;
+}
+p{
+      color: #999999;
+}
+a{
+      text-decoration: none;
+}
+
+
+/* Header section */
+header{
+      padding: 20px 0;
+}
+
+/* Header section */
+.banner-section{
+      background: url(../image/bg.png) no-repeat center;
+      background-size: cover;
+      padding: 40px 0 270px
+}
+.banner-section h1{
+      font-size: 120px;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 5px;
+
+}
+.banner-section .title-separation{
+      background: #15a4fa;
+      height: 2px;
+      width: 45%;
+      margin: 30px auto 10px;
+}
+.banner-section p{
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      padding: 20px;
+}
+.banner-section .btn-aciton{
+      color: white;
+      border: 1px solid #15a4fa;
+      border-radius: 3px;
+      padding: 25px 50px;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 25px auto;
+      display: block;
+      text-align: center;
+      width: 206px;
+      transition: all 0.3s ease-in-out;
+}
+.banner-section .btn-aciton:hover{
+      background: #15a4fa;
+}
+.banner-section .fa-solid{
+      color: white;
+      font-size: 36px;
+      text-align: center;
+      display: block;
+      margin-top: 50px;
+}
+/* about section */
+
+.about-section{
+      background: #f6f9f9;
+      padding: 80px 0;
+      text-align: center;
+}
+.about-section h2{
+      font-size: 40px;
+      margin-bottom: 35px;
+}
+.about-section p{
+      font-size: 20px;
+      line-height: 32px;
+}
+
+/* feature section */
+.feature-section{
+      padding: 80px 0;
+      text-align: center;
+}
+.feature-section img{
+      display: block;
+      margin: 0 auto;
+}
+.feature-section h3{
+      font-size: 22px;
+      margin: 25px 0 15px;
+}
+.feature-section p{
+      font-size: 18px;
+      padding: 0 30px;
+}
+
+/* gallery section */
+.gallery-section{
+      background-color: #f6f9f9;
+      padding: 100px;
+}
+.gallery-section h2{
+      font-size: 40px;
+      margin-bottom: 15px;
+      text-align: center;
+}
+.gallery-section p{
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      margin-bottom: 80px;
+}
+.item-box{
+      position: relative;
+      overflow: hidden;
+}
+.item-box img{
+      width: 100%;
+}
+.item-hover{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 143, 220, .8);
+      top: 0;
+      left: -100%;
+      transition: all 0.3s ease-in-out;
+}
+.item-box:hover .item-hover{
+      left: 0;
+}
+.item-hover ul{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-top: 27.5%;
+}
+.item-hover ul li{
+      list-style: none;
+      display: inline;
+      margin: 0 5px;
+}
+.item-hover ul li i{
+      color: white;
+      width: 45px;
+      height: 50px;
+      border: 1px solid white;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 5px;
+      font-size: 20px;
+}
+/* contact section */
+.contact-section{
+      background: url(../image/bg-contact.png) no-repeat center;
+      background-size: cover;
+      padding: 100px 0 120px;
+}
+.contact-section h2{
+      font-size: 40px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: white;
+}
+.contact-section p{
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      margin-bottom: 80px;
+      color: white;
+}
+/* contact section */
+.form-contact{
+      background: transparent;
+      height: auto;
+      width: 100%;
+      display: block;
+      border: 1px solid white;
+      color: white;
+      border-radius: 10px;
+      margin: auto;
+      padding-left: 10px;
+      font-size: 17px;
+      padding: 12px;
+}
+#form-contact{
+      background: transparent;
+      display: block;
+      height: 150px;
+      width: 100%;
+      border: 1px solid white;
+      color: white;
+      border-radius: 20px;
+      margin: auto;
+      padding-left: 10px;
+      font-size: 17px;
+  }
+.checkbox{
+      margin: 0 5px;
+}
+.button{
+      float: right;
+      padding: 10px 36px;
+      font-size: 16px;
+      background: transparent;
+      border: 2px solid #226fa3;
+      color: white;
+      border-radius: 5px;
+      margin-right: 35px;
+      transition: all 0.3s ease-in-out;
+}
+.button:hover{
+      background: #15a4fa;
+}
+.btn-sm .checkbox{
+      margin: 20px 0px;
+}
+
+/* footer section */
+.background{
+      background: #f6f9f9;
+}
+.copyright{
+      padding: 20px 0;
+      margin-top: 30px;
+      margin-left: 50px;
+}
+.footer-icon{
+      float: right;
+      margin-top: 40px;
+      list-style: none;
+}
+.footer-icon li a{
+      background: #15a4fa;
+      color: white;
+      padding: 5px 5px;
+      font-size: 22px;
+      border-radius: 10px;
+      margin-right: 10px;
+      transition: all 0.3s ease-in-out;
+}
+.footer-icon li a:hover{
+      background: #2d3950;
+
+}
+
+/* For Notepad device */
+@media (min-width: 769px) and (max-width: 990px){
+      
+}
+/* For tablet device */
+@media (min-width: 577px) and (max-width: 768px){
+      
+}
+/* For mobile device */
+@media (min-width: 320px) and (max-width: 576px){
+.logo{ margin: 0 auto; display: block;}
+.banner-section{ padding: 100px 0 45px;}
+.banner-section h1{ font-size: 60px; letter-spacing: 2px;}
+.banner-section p{ padding: 20px 45px}     
+.banner-section .title-separation{margin: 20px auto 0px;}
+.about-section{padding: 50px 0;}
+.about-section h2 { font-size: 33px; margin-bottom: 20px;}
+.about-section p {font-size: 18px; line-height: 25px;}
+.feature-section{padding: 60px 0;}
+.feature-section p{margin-bottom: 36px; font-size: 16px;}
+.feature-section h3{margin: 15px 0 6px;}
+.gallery-section{padding: 35px 0px;}
+.contact-section{padding: 60px 0 25px;}
+.contact-section h2{font-size: 38px; margin-bottom: 3px;}
+.contact-section p{margin-bottom: 46px;}
+.copyright {padding: 0px 0; margin-top: 30px; margin-left: 10px; text-align: center;}
+.footer-icon {margin-top: 10px; text-align: center;}
+}
